@@ -43,6 +43,16 @@ header em {
 	font-weight: bold;
 }
 
+
+
+
+.image {
+	text-align: center;
+}
+
+.image img {
+	display: inline-block;
+}
 .container {
 	padding: 20px;
 	max-width: 960px;
@@ -56,12 +66,17 @@ header em {
 	text-decoration: none;
 	color: black;
 	letter-spacing: .1em;
-	margin-top: .5em;
+	margin-top: .7em;
+}
+
+.info {
+	text-align: center;
 }
 
 .info a{
 	line-height: 70px;
 	margin-left: 2%;
+
 }
 
 .info p{
@@ -70,7 +85,7 @@ header em {
 
 
 .objectives{
-	height: 350px;
+
 	padding: 1em;
 	background: rgb(232,236,236);
 	-webkit-border-radius: 10px 10px 10px 10px;
@@ -111,7 +126,7 @@ font-weight: bold;
 
 .left {
 	padding-right: 20px;
-	border-right:2px grey dotted;
+	
 }
 
 .left h3{
