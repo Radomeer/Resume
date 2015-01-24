@@ -1,0 +1,19 @@
+
+
+body{
+	background: #fff;
+	color: #474646;
+	padding: 0;
+	margin: 0;
+	font-family: "Proxima Nova", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	position: relative;
+	cursor: default;
+}
+
+header.wrapper{
+	background-color: #28ca80;
+	padding-top: 1.5em;
+}
