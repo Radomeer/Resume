@@ -4,15 +4,13 @@ color: #45b984;
 }
 
 
-body{
-	font-size: 1.6em;
+body {
+	font-size: 1.8em;
 	background: #fff;
 	color: #474646;
 	padding: 0;
 	margin: 0;
-	font-family: Arial, "Helvetica", Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'Dosis', sans-serif;
 	line-height: 1;
 	position: relative;
 	cursor: default;
@@ -20,9 +18,32 @@ body{
 }
 
 
+.navigation-wrapper{
+	margin-bottom: 2em;
+}
 
-nav {
+.mainNav {
+	background-color: #28ca80;
+	margin-top: 2em;
+	overflow: hidden;
+}
+.mainNav ul {
+	list-style: none;
+}
 
+.mainNav li{
+	float:left;
+	margin-right: 2em;
+}
+
+.mainNav li a{
+	font-size: 1.1em;
+	color: white;
+	letter-spacing: .1em;
+}
+
+.mainNav li a:active {
+	font-weight: bold;
 }
 
 .jumbotron {
@@ -31,19 +52,52 @@ nav {
 	color: white;
 }
 
+.jumbotron h1{
+	text-align: center;
+	font-size: 2.5em;
+}
 
 header{
 	margin:0 auto;
 	background-color: #28ca80;
 }
 
-header h1 {
-	text-align: center;
+h1 {
+	
 	font-weight: normal;
+	color: white;
+	text-transform: uppercase;
 }
 
 header h2{
 	font-weight: normal;
+	margin-bottom: 1em;
+}
+
+header .btn, .header-wrapper .btn {
+		background-color: #34dd90;
+		font-size: 1em;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		color: white;
+}
+
+
+
+.header-wrapper {
+	background: #28ca80;
+}
+
+.header-wrapper h3 {
+	margin-bottom: 1.5em;
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.375em;
+	text-transform: uppercase;
+}
+
+.header-wrapper .mainNav {
+	margin-top: 0;
 }
 
 p {
@@ -81,7 +135,32 @@ aside img {
 
 
 footer {
-	background: #fafafa;;
+	background: #fafafa;
 }
 
+footer ul {
+	list-style: none
+}
+
+footer li {}
+
+
+
+footer p {
+	margin-bottom: 5em 0;
+}
+.myLinks li {
+	margin-bottom: 1em;
+}
+
+
+footer img {
+	width: 150px;
+	height: 40px;
+}
+footer p {
+	line-height: 150px;
+	text-align: center;
+
+}
 

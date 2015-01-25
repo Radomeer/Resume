@@ -6,42 +6,32 @@
 		<title>Milos Batinic</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link href='http://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="js/respond.js"></script>
 	</head>
 
-	<body>
-			
-				<div class="row">
-						<nav class="navbar navbar-fixed-top" role ="navigation">
-							<div class="navbar-header">	
-								<button type="button" class="nabvar-toggle" data-toggle="collapse" data-target="#collapse">
-									<span class="sr-only">Toggle nvigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button> <!-- end button -->
-							</div> <!-- navbar-header -->
-
-							<div class="collapse navbar-collapse" id ="collapse">
-								<ul class ="nav nabvar-nav">	
-									<li class ="active"><a href="index.html">About</a></li>
-									<li><a href="project.html">Project</a></li>
-									<li><a href="blog.html">Blog</a></li>
-								</ul>
-							</div> <!-- end div collapse -->
-
-						</nav> <!-- main navigation -->
-				</div> <!-- end row navigation -->
-
+	<body id="about">
+				
+				</nav> <!-- end row navigation -->
 				<section class="row jumbotron">
 					<div class= "container">
 						<header class ="row">
+
+							<nav class="mainNav row">
+								<div class = "navigation-wrapper pull-right">
+									<ul >	
+										<li class ="active"><a href="index.html">About</a></li>
+										<li><a href="projects.html">Project</a></li>
+										<li><a href="blog.html">Blog</a></li>
+									</ul>
+								</div> <!-- end navigation-wrapper -->
+							<nav>	
 							<div class=" wrapper col-lg-12 col-sm-12">
 								
 								<p class ="hidden-sm hidden-xs"><img src="images/timmy.jpg" alt="" class="img-responsive img-circle pull-right"></p>
 								<h1>LOOKING FOR A JAVA DEVELOPER?</h1>
-								<h2>I’M A WEB DEVELOPER & PROGRAMMER LIVING IN DUBLIN, IRELAND. I MAKE WEB APPLICATIONS, USUALLY WITH DJANGO</h2>
-								<p><a href="" class="btn btn-warning">Send Me An Email</a></p>
+								<h2 class="text-center">I’M A WEB DEVELOPER & PROGRAMMER LIVING IN DUBLIN, IRELAND. I MAKE WEB APPLICATIONS, USUALLY WITH DJANGO</h2>
+								<p class="text-center"><a href="" class="btn ">Send Me An Email</a></p>
 							</div> <!-- end wrapper -->
 						</header> <!-- end header -->
 						</div> <!-- end container -->		
@@ -61,6 +51,9 @@
 					<p><strong>Design & UX</strong> - While I primarily write code, I have a good eye for quality design. I have been responsible for numerous design related aspects of previous projects including identity and logo development, layout, mockups and full site designs.</p>
 					
 					<p><a href="/projects/OMP-International-Architects/">See a recent design oriented project →</a></p>
+				
+						<p><strong>Devops & Infrastructure</strong> - I manage numerous servers for client projects as well as my own personal sites and apps. I therefore have experience with the setup, deployment, provisioning & day to day maintenance of full server stacks. This includes tools such as vagrant, chef & docker as well as platforms such as AWS, Linode & Digital Ocean.</p>
+						
 				</article>
 			
 
@@ -72,7 +65,8 @@
 					<p>Alternatively, you can find me on <a href="http://stackoverflow.com/users/396300/milosh-batinic" target="_blank">Stackoverflow</a> or Twitter. If you are interested in working on a project together, don't hesitate to get in touch:</p>
 					
 					<a href="mailto:radomirrankovic@gmail.com" class="btn btn-warning">Send Me An Email</a>
-						
+					
+
 					<div class="skills">	
 						<p>Total Skills</p>
 						<section class="Networking">
@@ -104,25 +98,26 @@
 		<footer >
 			<div class="container">
 				<div class="row">
-					<div class="col col-sm-4">
-						<p>Personal info</p>
-						<ul>
-							<li>Address</li>
-							<li>Phone</li>
-							<li>Place</li>
-						</ul>
-					</div>
-					<div class="col col-sm-4">
-						<ul>
-							<li><a href=""><img src="images/stackoverflow.png"></a></li>
-							<li><a href=""></a><img src="images/twitter.png"></a></li>
-							<li><a href=""></a><img src="images/github.png"></a></li>
-						</ul>
-					</div>
-					<div class="col col-sm-4">
-						
-					</div>
-				</div>
+					
+					<section class="wrapper">
+						<div class="col col-lg-4 col-sm-4">
+							<p>
+								<a href="https://twitter.com/milosh-batinic"><img src="images/twitter.png"></a>
+							</p>
+						</div>
+						<div class="col col-lg-4 col-sm-4">
+							<p>
+								<a href="http://stackoverflow.com/users/******/milos-batinic"><img src="images/stackoverflow.png"></a>
+							</p>	
+						</div>
+						<div class="col col-lg-4 col-sm-4">
+							<p>
+								<a href="https://github.com/miloshbatinic"><img src="images/github.png"></a>
+							</p>
+						</div>
+
+					</section> <!-- section wrapper -->
+				</div> <!-- end row -->
 			</div>
 		</footer>
 			
