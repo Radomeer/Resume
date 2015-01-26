@@ -37,6 +37,10 @@ body {
 	margin-right: 2em;
 }
 
+.mainNav li:last-child {
+	margin-right: 0;
+}
+
 .mainNav li a{
 	font-size: 1.1em;
 	color: white;
@@ -128,6 +132,16 @@ background: #28ca80;
 	letter-spacing: .1em;
 }
 
+.header-wrapper h4 {
+	margin: 1.5em 0;
+	font-size: 1.5em;
+	padding: 1em 0;
+	font-family: 'Dosis', sans-serif;
+	text-transform: none;
+	letter-spacing: .1em;
+	color: white;
+}
+
 .header-wrapper .mainNav {
 	margin-top: 0;
 }
@@ -196,6 +210,21 @@ footer p {
 
 }
 
+.myproject {
+	margin-top: 3em;
+}
+
+.myproject img {
+	border: 7px solid #f5f5f5;
+	display: block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+
+	.aside-btn {
+		text-align: center;
+	} 
 
 
 
@@ -209,9 +238,13 @@ footer p {
 		background-color: #34dd90;
 		display: block;
 		float: none;
+
 	}
 	.mainNav ul {
 		width: 100%;
+		overflow: hidden;
+		padding-left: 0;
+
 	}
 
 	.mainNav ul li {
@@ -241,16 +274,23 @@ footer p {
 
 	.header-wrapper a.btn {
 		float: none;
+		background: #28ca80;
 	}
 
 	.jumbotron h1, .wrapper h1 {
 		text-align: center;
-		font-size: 2em
+		font-size: 1.6em
 
 	}
 
-		.wrapper h3 {
+	.wrapper h3 {
 		text-align: center;
+	}
+
+	.wrapper h4 {
+		text-align: center;
+		font-size: 1em;
+		line-height: 1.2em;
 	}
 
 	.header-wrapper {
@@ -262,10 +302,12 @@ footer p {
 		width: 100%;	
 	}
 	
-	.post a.read-more {
+	.post a.read-more, aside a.btn {
 		width: 100%;
 		margin-top: 0.5em;
 	}
+
+
 
 	.post {
 		font-size: 0.9em;
@@ -275,17 +317,20 @@ footer p {
 		margin: 0 auto 3em auto !important;
 		float: none !important;
 		display: block;
+		width: 40%;
 	}
 
 
-	.post p {
+	.post p, .mainContent p, aside p{
 		text-align: center;
+		margin: 0;
 	}
 
 	h2,.post h2 {
 		text-align: center;
-		font-size: 1.4em;
+		font-size: 1.2em;
 	}
 
+		
 
 }
